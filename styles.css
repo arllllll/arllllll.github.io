@@ -15,6 +15,7 @@ body {background-color:aliceblue;
 header{background-color:aliceblue;
     text-align:center;
     display: block;
+    
 }
 footer{text-align: center;
     display:block;
@@ -24,7 +25,11 @@ div{text-align:center;
 }
 .footer-gifs{
     justify-content: center;
-
+    
+}
+.footer-gif{
+    max-width: 125px;
+    
 }
 table{table-layout: auto;width: 150px;
 
@@ -49,7 +54,7 @@ a:visited{color:#2E4A4D;
 nav li{display:inline-block;
 
 }
-/*-----GALLERY-----*/
+/*-----GALLERY-----*//*IS THERE SOMETHING I CAN ADD TO MAKE THIS LOOK BETTER ON MOBILE?*/
 .gallery{display: flex;
     margin-top: 75px;
     justify-content: center;
@@ -58,4 +63,13 @@ nav li{display:inline-block;
  .landscape{max-width: 200px;
 }
 /*----------------*/
-.home-photo{max-width: 400px;}
+.home-photo{max-width: 400px;
+}
+.recipe{text-align:left;
+    list-style: none;
+
+}
+#recipe-title{color:#2E4A4D;
+}
+#byline{color:#99A5B3;
+}
