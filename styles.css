@@ -17,13 +17,20 @@ header{background-color:aliceblue;
     display: block;
 }
 footer{text-align: center;
-    position:absolute;
-    display:block
+    display:block;
+    justify-content: center;
 }
 div{text-align:center;
 }
-.footer-gifs{display: block;}
+.footer-gifs{
+    justify-content: center;
 
+}
+table{table-layout: auto;width: 150px;
+
+}
+td{border: 1px solid #333;
+    border-right-style: none;} /*ANNA KEEP TROUBLESHOOTING THE BORDER LINES ON YOUR TABLE*/
 /*-----menu-----*/
 .menu{text-align:center;
 padding:20px;
@@ -40,13 +47,15 @@ a:visited{color:#2E4A4D;
 }
 
 nav li{display:inline-block;
+
 }
 /*-----GALLERY-----*/
 .gallery{display: flex;
     margin-top: 75px;
+    justify-content: center;
  }
  .portrait{border:#2E4A4D; max-width: 200px;}
  .landscape{max-width: 200px;
 }
 /*----------------*/
-
+.home-photo{max-width: 400px;}
