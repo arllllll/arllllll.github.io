@@ -1,9 +1,9 @@
-PROJECT TITLE
-(and subtitle, if one exists)
+lamination
+a place for pie
 
 by
 
-(your name/byline)
+Anna Leuning
 
 About the Project
 
@@ -20,8 +20,5 @@ Data / Sources:
 
 (if your project is based on data, you should specify those sources -- these should also be listed on your project site itself)
 
-References / external acknowledgements 
-
-(things like sources beyond the data used, bibliographies, organizations you drew expertise from in your analysis, etc. -- these should also be listed on your project site itself)
-
-(... And end your README with notes on anything someone from the public interested in your project might want to know about the context of your creation!)
+References / external acknowledgements: 
+Thank you to Tom Crawford for the illustrating the favicon for this site. Salt conversion table adapted from Master Class (link: https://www.masterclass.com/articles/salt-conversion-chart). 
