@@ -19,6 +19,8 @@ header{background-color:aliceblue;
 footer{text-align: center;
     display:block;
     justify-content: center;
+    font-family:'Lora', serif;
+    font-size: smaller;
 }
 div{text-align:center;
     font-family: 'Lora', serif;
