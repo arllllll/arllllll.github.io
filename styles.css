@@ -28,8 +28,10 @@ footer{text-align: center;
 }
 div{text-align:center;
     font-family: 'Lora', serif;
+
 }
 
+    
 .footer-gifs{
     justify-content: center;
     
@@ -38,12 +40,25 @@ div{text-align:center;
     max-width: 125px;
     
 }
-section{align-items: center;}
+.table-area{display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font-family:'Lora', serif;
+    }
 table{table-layout: auto;width: 150px;
 }
-td{border: 3px solid #333;
+
+td{border: 3px solid #99A5B3;
     border-right-style:groove;
-font-family:'Lora',serif;} /*ANNA KEEP TROUBLESHOOTING THE BORDER LINES ON YOUR TABLE*/
+    font-family:'Lora',serif;
+    padding:10px;
+}
+.bold{font-weight: bold;
+    background-color:#99A5B3;} 
+td:hover{background-color:rgb(255, 229, 124);
+}
+
 /*-----menu-----*/
 .menu{text-align:center;
 padding:15px;    
@@ -87,3 +102,5 @@ nav li{display:inline-block;
 }
 #byline{color:#99A5B3;
 }
+.books{text-align: left;
+font-family:'Lora', serif;}
