@@ -14,15 +14,16 @@ body {background-color:aliceblue;
 
 header{background-color:aliceblue;
     text-align:center;
-    display: block;
-    
+    font-family: 'Righteous', cursive;
 }
 footer{text-align: center;
     display:block;
     justify-content: center;
 }
 div{text-align:center;
+    font-family: 'Lora', serif;
 }
+
 .footer-gifs{
     justify-content: center;
     
@@ -40,18 +41,24 @@ td{border: 1px solid #333;
 .menu{text-align:center;
 padding:20px;
 list-style:none;
-background-color:#799D91; 
+background-color:rgb(255, 229, 124); 
 color:#2E4A4D;
 font-weight: bold;
 position: sticky; 
 display: flex;
 justify-content:space-evenly;
-margin:-10px
+margin:-10px;
+
 }
+.links{text-decoration: none;
+font-size:larger;
+}
+
 a:visited{color:#2E4A4D;
 }
 
 nav li{display:inline-block;
+    
 
 }
 /*-----GALLERY-----*//*IS THERE SOMETHING I CAN ADD TO MAKE THIS LOOK BETTER ON MOBILE?*/
@@ -67,7 +74,7 @@ nav li{display:inline-block;
 }
 .recipe{text-align:left;
     list-style: none;
-
+    font-family: 'Cutive', serif;
 }
 #recipe-title{color:#2E4A4D;
 }
