@@ -74,6 +74,8 @@ margin:-10px;
 }
 .links{text-decoration: none;
 font-size:larger;
+color:#2E4A4D;
+text-decoration-color: none;
 }
 
 a:visited{color:#2E4A4D;
