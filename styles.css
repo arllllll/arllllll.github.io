@@ -18,34 +18,35 @@ header{background-color:rgb(241, 184, 11);
     font-family: 'Righteous', cursive;
     margin: -10px;
     padding-top: 1%;
-    
 }
+
 footer{text-align: center;
     display:block;
     justify-content: center;
     font-family:'Lora', serif;
     font-size: smaller;
 }
+
 div{text-align:center;
     font-family: 'Lora', serif;
-
 }
 
-    
+/*-----footer-----*/    
 .footer-gifs{
     justify-content: center;
-    
 }
 .footer-gif{
     max-width: 125px;
-    
 }
+
+/*-----tables-----*/
 .table-area{display: flex;
     align-items:flex-start;
     justify-content: space-around;
     flex-wrap: nowrap;
     font-family:'Lora', serif;
-    }
+}
+
 table{table-layout: auto;width: 150px;
 }
 
@@ -54,8 +55,11 @@ td{border: 3px solid #99A5B3;
     font-family:'Lora',serif;
     padding:10px;
 }
+
 .bold{font-weight: bold;
-    background-color:#99A5B3;} 
+    background-color:#99A5B3;
+} 
+
 td:hover{background-color:rgb(255, 229, 124);
 }
 
@@ -70,8 +74,8 @@ position: sticky;
 display: flex;
 justify-content:space-evenly;
 margin:-10px;
-
 }
+
 .links{text-decoration: none;
 font-size:larger;
 color:#2E4A4D;
@@ -82,27 +86,33 @@ a:visited{color:#2E4A4D;
 }
 
 nav li{display:inline-block;
-    
-
 }
-/*-----GALLERY-----*//*IS THERE SOMETHING I CAN ADD TO MAKE THIS LOOK BETTER ON MOBILE?*/
+
+/*-----gallery-----*//*IS THERE SOMETHING I CAN ADD TO MAKE THIS LOOK BETTER ON MOBILE?*/
 .gallery{display: flex;
     margin-top: 75px;
     justify-content: center;
- }
- .portrait{border:#2E4A4D; max-width: 200px;}
- .landscape{max-width: 200px;
 }
-/*----------------*/
+
+.portrait{border:#2E4A4D; max-width: 200px;
+}
+
+.landscape{max-width: 200px;
+}
+
+/*-------bits---------*/
 .home-photo{max-width: 400px;
 }
+
 .recipe{text-align:left;
     list-style: none;
     font-family: 'Cutive', serif;
 }
 #recipe-title{color:#2E4A4D;
 }
+
 #byline{color:#99A5B3;
 }
+
 .books{text-align: left;
-font-family:'Lora', serif;}
+    font-family:'Lora', serif;}
