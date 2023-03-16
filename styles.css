@@ -21,30 +21,36 @@ header{background-color:rgb(241, 184, 11);
 }
 
 footer{text-align: center;
-    display:block;
+    display:inline-block;
     justify-content: center;
     font-family:'Lora', serif;
     font-size: smaller;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 div{text-align:center;
     font-family: 'Lora', serif;
 }
 
-/*-----footer-----*/    
+/*-----footer-----*//*Why isn't my footer center.*/    
 .footer-gifs{
-    justify-content: center;
+    justify-content: center; 
+    padding-block:initial;
+    text-align: center;
 }
+
 .footer-gif{
     max-width: 125px;
 }
 
 /*-----tables-----*/
 .table-area{display: flex;
-    align-items:flex-start;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+    align-items:center;
     font-family:'Lora', serif;
+    padding-left: 230px;
+   /* padding-right: 100px;*/
+    padding-top: 20px;
 }
 
 table{table-layout: auto;width: 150px;
@@ -54,6 +60,13 @@ td{border: 3px solid #99A5B3;
     border-right-style:groove;
     font-family:'Lora',serif;
     padding:10px;
+}
+
+th{border: 3px solid #99A5B3;
+    border-right-style:groove;
+    font-family:'Lora',serif;
+    padding:10px;
+    font-weight: bolder;
 }
 
 .bold{font-weight: bold;
@@ -113,6 +126,19 @@ nav li{display:inline-block;
 
 #byline{color:#99A5B3;
 }
+/*I don't know why these are still stuck in the center*/
+.book-section{
+    padding-top: 175px;
+    display: block;
+    justify-content: left;
+}
 
-.books{text-align: left;
-    font-family:'Lora', serif;}
+.books{
+    font-family:'Lora', serif;
+    display: block;
+    justify-content: left;
+}
+
+.videos{padding:100px;
+
+}
