@@ -20,6 +20,11 @@ header{background-color:rgb(241, 184, 11);
     padding-top: 1%;
 }
 
+div{text-align:center;
+    font-family: 'Lora', serif;
+}
+
+/*-----footer-----*//*Why isn't my footer center.*/    
 footer{text-align: center;
     display:inline-block;
     justify-content: center;
@@ -29,11 +34,6 @@ footer{text-align: center;
     margin-right:auto;
 }
 
-div{text-align:center;
-    font-family: 'Lora', serif;
-}
-
-/*-----footer-----*//*Why isn't my footer center.*/    
 .footer-gifs{
     justify-content: center; 
     padding-block:initial;
