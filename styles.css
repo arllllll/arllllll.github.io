@@ -92,7 +92,7 @@ margin:-10px;
 .links{text-decoration: none;
 font-size:larger;
 color:#2E4A4D;
-text-decoration-color: none;
+text-decoration-color:#2E4A4D;
 }
 
 a:visited{color:#2E4A4D;
@@ -102,16 +102,56 @@ nav li{display:inline-block;
 }
 
 /*-----gallery-----*//*IS THERE SOMETHING I CAN ADD TO MAKE THIS LOOK BETTER ON MOBILE?*/
-.gallery{display: flex;
-    margin-top: 75px;
-    justify-content: center;
-}
+/*.gallery{
+    column-count: 4;
+    column-gap: 5px;
+    row-gap: 5px;
+    width: 100%;
+    height: aut0;
+    margin-bottom: 5px;
+}*/
 
-.portrait{border:#2E4A4D; max-width: 200px;
+.portrait{border:#2E4A4D; 
+    max-width: 275px;
+    height:auto;
+    display:block;
+
 }
 
 .landscape{max-width: 200px;
 }
+
+figure{
+    display: inline-block;
+}
+
+/*TESTING AREA TO MAKE CAPTION OVERLAY!*/
+.overlay{
+position:absolute;
+bottom: 5px;
+background-color: deeppink;
+color:antiquewhite;
+width: 100%;
+transition: .5s ease;
+opacity:0;
+font-size: larger;
+
+}
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 275px;
+    box-sizing:content-box;
+  }
+
+.container:hover .overlay{ opacity: 1;
+}
+
+/*.caption{
+    position: relative;
+    overflow: hidden;
+    background:tr
+}*/
 
 /*-------bits---------*/
 .home-photo{max-width: 400px;
@@ -140,5 +180,10 @@ nav li{display:inline-block;
 }
 
 .videos{padding:100px;
+
+}
+
+.section-headings{
+    padding: 30px;
 
 }
