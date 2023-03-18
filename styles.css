@@ -185,5 +185,6 @@ font-size: larger;
 
 .section-headings{
     padding: 30px;
-
+    background-color: #99A5B3;
+    margin: -10px;
 }
