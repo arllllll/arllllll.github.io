@@ -12,12 +12,12 @@ Light green #799D91
 body {background-color:#f9f9f9;
 }
 
-header{background-color:rgb(241, 184, 11);
+header{background-color:#73978B;
     color:#2E4A4D; 
     text-align:center;
     font-family: 'Righteous', cursive;
     margin: -10px;
-    padding-top: 1%;
+   padding-top: 7px;
 }
 
 div{text-align:center;
@@ -71,18 +71,18 @@ th{border: 3px solid #99A5B3;
 }
 
 .bold{font-weight: bold;
-    background-color:#99A5B3;
+    background-color:#ECE3C1;
 } 
 
-td:hover{background-color:rgb(255, 229, 124);
+td:hover{background-color:#99A5B3;
 }
 
 /*-----menu-----*/
 .menu{text-align:center;
 padding:15px;    
 list-style:none;
-background-color:rgb(255, 229, 124); 
-color:#2E4A4D;
+background-color:#96A899; 
+color:#ECE3C1;
 font-weight: bold;
 position: sticky; 
 display: flex;
@@ -130,7 +130,7 @@ figure{
 .overlay{
 position:absolute;
 bottom: 5px;
-background-color: deeppink;
+background-color: #8bbf9f;
 color:antiquewhite;
 width: 100%;
 transition: .5s ease;
@@ -163,20 +163,19 @@ font-size: larger;
     font-family: 'Cutive', serif;
 }
 #recipe-title{color:#2E4A4D; 
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     text-align: center;
     /*text-decoration: dotted;
     text-decoration-color: #2E4A4D;*/
     background-color: #99A5B3;
     margin-left: -10px;
     margin-right:-10px;
-    margin-top: 8px;
     font-family: 'Lora', serif;
 }
 
 #byline{color:#2E4A4D;
-    margin:0px;
+    margin-top:-5px;
     text-align: center;
     background-color: #99A5B3;
     margin-left: -10px;
@@ -205,9 +204,13 @@ font-size: larger;
 }
 
 .section-headings{
-    padding: 30px;
+    padding: 4px;
     background-color: #99A5B3;
-    margin: -10px;
+    /*background-color: #73978B;*/
+    margin-left: -10px;
+    margin-right:-10px;
+    margin-bottom:10px;
+    margin-top:15px;
     text-align: center;
-    
+    color:#2E4A4D;
 }
