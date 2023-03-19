@@ -45,13 +45,13 @@ footer{text-align: center;
 }
 
 /*-----tables-----*/
-.table-area{display: flex;
+.table-area{display: inline-block;
     align-items:center;
     font-family:'Lora', serif;
     padding-left: 230px;
-   /* padding-right: 100px;*/
+    padding-right: 100px;
     padding-top: 30px;
-    padding-bottom: 250px;
+    padding-bottom: 30px;
 }
 
 table{table-layout: auto;width: 150px;
