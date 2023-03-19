@@ -50,7 +50,8 @@ footer{text-align: center;
     font-family:'Lora', serif;
     padding-left: 230px;
    /* padding-right: 100px;*/
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 250px;
 }
 
 table{table-layout: auto;width: 150px;
@@ -161,23 +162,43 @@ font-size: larger;
     list-style: none;
     font-family: 'Cutive', serif;
 }
-#recipe-title{color:#2E4A4D;
+#recipe-title{color:#2E4A4D; 
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    /*text-decoration: dotted;
+    text-decoration-color: #2E4A4D;*/
+    background-color: #99A5B3;
+    margin-left: -10px;
+    margin-right:-10px;
+    margin-top: 8px;
+    font-family: 'Lora', serif;
 }
 
-#byline{color:#99A5B3;
+#byline{color:#2E4A4D;
+    margin:0px;
+    text-align: center;
+    background-color: #99A5B3;
+    margin-left: -10px;
+    margin-right:-10px;
+    font-family: 'Lora', serif;
+}
+.recipe-image{max-width: 200px;
+    display: inline-block;
+
+
 }
 /*I don't know why these are still stuck in the center*/
 .book-section{
-    padding-top: 175px;
-    display: block;
-    justify-content: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.books{
+/*.books{
     font-family:'Lora', serif;
     display: block;
     justify-content: left;
-}
+}*/
 
 .videos{padding:100px;
 
@@ -187,4 +208,6 @@ font-size: larger;
     padding: 30px;
     background-color: #99A5B3;
     margin: -10px;
+    text-align: center;
+    
 }
