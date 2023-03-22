@@ -63,16 +63,24 @@ td{border: 3px solid #99A5B3;
     padding:10px;
 }
 
+/* OBSOLETE ATM
 th{border: 3px solid #99A5B3;
     border-right-style:groove;
     font-family:'Lora',serif;
     padding:10px;
     font-weight: bolder;
-}
+}*/
 
 .bold{font-weight: bold;
     background-color:#ECE3C1;
 } 
+
+.table-title{border: 3px solid #99A5B3;
+    border-right-style:groove;
+    font-family:'Lora',serif;
+    padding:10px;
+    font-weight: bolder;
+}
 
 td:hover{background-color:#ECE3C1;
 }
@@ -162,7 +170,7 @@ font-size: larger;
     list-style: none;
     font-family: 'Cutive', serif;
 }
-#recipe-title{color:#2E4A4D; 
+.recipe-title{color:#2E4A4D; 
     margin-top: 15px;
     margin-bottom: 5px;
     text-align: center;
@@ -174,7 +182,7 @@ font-size: larger;
     font-family: 'Lora', serif;
 }
 
-#byline{color:#2E4A4D;
+.byline{color:#2E4A4D;
     margin-top:-5px;
     text-align: center;
     background-color: #99A5B3;
