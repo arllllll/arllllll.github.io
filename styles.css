@@ -1,14 +1,19 @@
 /*-----COLOR PALETTE-----
-From https://www.metmuseum.org/art/collection/search/436634?&exhibitionId=0&oid=436634&pkgids=undefined
+From media/portrait-of-a-lady-on-fire-color-palette.jpg
 
-Dark blue-grey #6C7C8C 
-Light blue-grey #99A5B3
-Dark sage green #738E89
-Dark green #2E4A4D
-Light green #799D91
+Yellow-beige: #ECE3C1
+Gray-beige: #CCC3AD
+Green-beige: #D8D7BC
+Darker green: #5A8077
+Lighter green: #73978B
+Gray-green: #96A899
+Blue-green: #2F545C
+Black: #211D20
+Purple-gray: #886E6E
+Dull red:#935949
 */
 
-/*-----global-----*/
+/*-----all pages-----*/
 body {background-color:#f9f9f9;
 }
 
@@ -24,7 +29,19 @@ div{text-align:center;
     font-family: 'Lora', serif;
 }
 
-/*-----footer-----*//*Why isn't my footer center.*/    
+.section-headings{
+    padding: 4px;
+    background-color: #99A5B3;
+    /*background-color: #73978B;*/
+    margin-left: -10px;
+    margin-right:-10px;
+    margin-bottom:10px;
+    margin-top:15px;
+    text-align: center;
+    color:#2E4A4D;
+}
+
+/*-----footer-----*//*Why isn't my footer centered?*/    
 footer{text-align: center;
     display:inline-block;
     justify-content: center;
@@ -166,6 +183,8 @@ font-size: larger;
 .home-photo{max-width: 400px;
 }
 
+
+/*------recipes------*/
 .recipe{text-align:left;
     list-style: none;
     font-family: 'Cutive', serif;
@@ -195,7 +214,8 @@ font-size: larger;
 
 
 }
-/*I don't know why these are still stuck in the center*/
+
+/*----books and videos-----*/
 .book-section{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -207,18 +227,6 @@ font-size: larger;
     justify-content: left;
 }*/
 
-.videos{padding:100px;
+#videos{padding:100px;
 
-}
-
-.section-headings{
-    padding: 4px;
-    background-color: #99A5B3;
-    /*background-color: #73978B;*/
-    margin-left: -10px;
-    margin-right:-10px;
-    margin-bottom:10px;
-    margin-top:15px;
-    text-align: center;
-    color:#2E4A4D;
 }
