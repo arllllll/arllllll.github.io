@@ -35,14 +35,17 @@ div{text-align:center;
     /*background-color: #73978B;*/
     margin-left: -10px;
     margin-right:-10px;
-    margin-bottom:10px;
-    margin-top:15px;
+    margin-bottom:8px;
+    margin-top:0px;
     text-align: center;
     color:#2E4A4D;
+    font-family: 'Righteous', cursive;
+    font-size:smaller;
 }
 
-/*-----footer-----*//*Why isn't my footer centered?*/    
-footer{text-align: center;
+/*-----footer-----*/    
+footer{width: 100%;
+    text-align: center;
     display:inline-block;
     justify-content: center;
     font-family:'Lora', serif;
@@ -190,15 +193,18 @@ font-size: larger;
     font-family: 'Cutive', serif;
 }
 .recipe-title{color:#2E4A4D; 
-    margin-top: 15px;
+    margin-top: 2px;
     margin-bottom: 5px;
+    padding: 5px;
     text-align: center;
     /*text-decoration: dotted;
     text-decoration-color: #2E4A4D;*/
     background-color: #99A5B3;
     margin-left: -10px;
     margin-right:-10px;
-    font-family: 'Lora', serif;
+    font-family: 'cutive', serif;
+    font-size:large;
+
 }
 
 .byline{color:#2E4A4D;
@@ -207,13 +213,24 @@ font-size: larger;
     background-color: #99A5B3;
     margin-left: -10px;
     margin-right:-10px;
-    font-family: 'Lora', serif;
+    font-family: 'Cutive', serif;
+    font-size:medium;
 }
 .recipe-image{max-width: 200px;
     display: inline-block;
+}
 
+.line-space li{ 
+    margin-bottom: 5px;
 
 }
+#note{
+    text-align: center;
+    font-size: smaller;
+}
+/*---TESTING SPACE TO MAKE RECIPE STEPS HIGHLIGHT ON HOVER
+.line-space li:hover .overlay{ opacity: 1;
+}---*/
 
 /*----books and videos-----*/
 .book-section{
@@ -227,6 +244,6 @@ font-size: larger;
     justify-content: left;
 }*/
 
-#videos{padding:100px;
+.videos{padding:100px;
 
 }
