@@ -14,10 +14,12 @@ Dull red:#935949
 */
 
 /*-----all pages-----*/
-body {background-color:#f9f9f9;
+body {
+    background-color:#f9f9f9;
 }
 
-header{background-color:#73978B;
+header{
+    background-color:#73978B;
     color:#2E4A4D; 
     text-align:center;
     font-family: 'Righteous', cursive;
@@ -25,7 +27,8 @@ header{background-color:#73978B;
    padding-top: 7px;
 }
 
-div{text-align:center;
+div{
+    text-align:center;
     font-family: 'Lora', serif;
 }
 
@@ -44,7 +47,8 @@ div{text-align:center;
 }
 
 /*-----footer-----*/    
-footer{width: 100%;
+footer{
+    width: 100%;
     text-align: center;
     display:inline-block;
     justify-content: center;
@@ -65,7 +69,8 @@ footer{width: 100%;
 }
 
 /*-----tables-----*/
-.table-area{display: inline-block;
+.table-area{
+    display: inline-block;
     align-items:center;
     font-family:'Lora', serif;
     padding-left: 230px;
@@ -74,10 +79,12 @@ footer{width: 100%;
     padding-bottom: 30px;
 }
 
-table{table-layout: auto;width: 150px;
+table{
+    table-layout: auto;width: 150px;
 }
 
-td{border: 3px solid #99A5B3;
+td{
+    border: 3px solid #99A5B3;
     border-right-style:groove;
     font-family:'Lora',serif;
     padding:10px;
@@ -95,39 +102,45 @@ th{border: 3px solid #99A5B3;
     background-color:#ECE3C1;
 } 
 
-.table-title{border: 3px solid #99A5B3;
+.table-title{
+    border: 3px solid #99A5B3;
     border-right-style:groove;
     font-family:'Lora',serif;
     padding:10px;
     font-weight: bolder;
 }
 
-td:hover{background-color:#ECE3C1;
+td:hover{
+    background-color:#ECE3C1;
 }
 
 /*-----menu-----*/
-.menu{text-align:center;
-padding:15px;    
-list-style:none;
-background-color:#96A899; 
-color:#ECE3C1;
-font-weight: bold;
-position: sticky; 
-display: flex;
-justify-content:space-evenly;
-margin:-10px;
+.menu{
+    text-align:center;
+    padding:15px;    
+    list-style:none;
+    background-color:#96A899; 
+    color:#ECE3C1;
+    font-weight: bold;
+    position: sticky; 
+    display: flex;
+    justify-content:space-evenly;
+    margin:-10px;
 }
 
-.links{text-decoration: none;
-font-size:larger;
-color:#2E4A4D;
-text-decoration-color:#2E4A4D;
+.links{
+    text-decoration: none;
+    font-size:larger;
+    color:#2E4A4D;
+    text-decoration-color:#2E4A4D;
 }
 
-a:visited{color:#2E4A4D;
+a:visited{
+    color:#2E4A4D;
 }
 
-nav li{display:inline-block;
+nav li{
+    display:inline-block;
 }
 
 /*-----gallery-----*//*IS THERE SOMETHING I CAN ADD TO MAKE THIS LOOK BETTER ON MOBILE?*/
@@ -140,14 +153,16 @@ nav li{display:inline-block;
     margin-bottom: 5px;
 }*/
 
-.portrait{border:#2E4A4D; 
+.portrait{
+    border:#2E4A4D; 
     max-width: 275px;
     height:auto;
     display:block;
 
 }
 
-.landscape{max-width: 200px;
+.landscape{
+    max-width: 200px;
 }
 
 figure{
@@ -156,24 +171,25 @@ figure{
 
 /*TESTING AREA TO MAKE CAPTION OVERLAY!*/
 .overlay{
-position:absolute;
-bottom: 5px;
-background-color: #8bbf9f;
-color:antiquewhite;
-width: 100%;
-transition: .5s ease;
-opacity:0;
-font-size: larger;
+    position:absolute;
+    bottom: 5px;
+    background-color: #8bbf9f;
+    color:antiquewhite;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: larger;
 
 }
-.container {
+.container{
     position: relative;
     width: 50%;
     max-width: 275px;
     box-sizing:content-box;
   }
 
-.container:hover .overlay{ opacity: 1;
+.container:hover .overlay{
+    opacity: 1;
 }
 
 /*.caption{
@@ -183,17 +199,15 @@ font-size: larger;
 }*/
 
 /*-------bits---------*/
-.home-photo{max-width: 400px;
+.home-photo{
+    max-width: 400px;
 }
 
 
 /*------recipes------*/
-.recipe{text-align:left;
-    list-style: none;
-    font-family: 'Cutive', serif;
-}
-.recipe-title{color:#2E4A4D; 
-    margin-top: 2px;
+.recipe-title{
+    color:#2E4A4D; 
+    margin-top: 10px;
     margin-bottom: 5px;
     padding: 5px;
     text-align: center;
@@ -207,7 +221,8 @@ font-size: larger;
 
 }
 
-.byline{color:#2E4A4D;
+.byline{
+    color:#2E4A4D;
     margin-top:-5px;
     text-align: center;
     background-color: #99A5B3;
@@ -216,21 +231,30 @@ font-size: larger;
     font-family: 'Cutive', serif;
     font-size:medium;
 }
+
+.recipe{
+    text-align:left;
+    list-style: none;
+    font-family: 'Cutive', serif;
+}
+
 .recipe-image{max-width: 200px;
     display: inline-block;
 }
 
 .line-space li{ 
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 
 }
+
+.line-space li:hover{
+    background-color:#8bbf9f;
+}
+
 #note{
     text-align: center;
     font-size: smaller;
 }
-/*---TESTING SPACE TO MAKE RECIPE STEPS HIGHLIGHT ON HOVER
-.line-space li:hover .overlay{ opacity: 1;
-}---*/
 
 /*----books and videos-----*/
 .book-section{
@@ -244,6 +268,7 @@ font-size: larger;
     justify-content: left;
 }*/
 
-.videos{padding:100px;
+.videos
+{padding:100px;
 
 }
