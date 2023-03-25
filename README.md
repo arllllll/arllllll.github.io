@@ -15,11 +15,12 @@ About the project development:
 Much like making a pie, making this website was an iterative process. I enjoyed the mental exercise of simultaneously attempting what felt like a puzzle, an organization challenge and a creative outlet. It is truly a lot like pie!
 
 For the color palette, I wanted to go with shades you would find in a nice pie crust but found that it was very difficult to find multiple shades of yellow and golden that look lovely together– pie crust can do it, but I could not! So instead, I chose to base my color palette on my favorite frame from the film Portrait of a Lady on Fire. 
-<img src=”media/portrait-of-a-lady-on-fire-color-palette.jpg>
+<img src="media/portrait-of-a-lady-on-fire-color-palette.jpg">
 
 It is such a beautiful movie and I’m fairly certain there is no pie in it. (My best attempt at yellow was rgb(241, 184, 11) for the header and rgb(255, 229, 124) for the navigation.)
 
 For my heading fonts I wanted something a bit rounded and cozy, like a pie. For my recipe page I chose a typewriter font to mimic an old recipe card you might find in a recipe tin. My body font is Lora which I find to be a clean, light, and readable serif font. 
+<img src="media/recipe-tin.jpg">
 
 All of the content with the exception of the favicon, the Apple Pie recipe, and the information in the salt conversion table was written or made by me. Tom Crawford drew my favicon, a cute pie with a missing slice. Grace Gleason permitted me to include her Apple Pie recipe. I adapted an article from Masterclass for the salt table. I wanted to call the table, “Table Salt” but thought that might be a little confusing for the user.
 
