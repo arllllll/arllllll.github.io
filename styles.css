@@ -39,7 +39,7 @@ div{
     margin-left: -10px;
     margin-right:-10px;
     margin-bottom:8px;
-    margin-top:0px;
+    margin-top:1%;
     text-align: center;
     color:#2E4A4D;
     font-family: 'Righteous', cursive;
@@ -203,21 +203,37 @@ figure{
     max-width: 400px;
 }
 
+.home p{
+    font-family: 'Lora', Serif;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#first-pie{
+    text-align:center;
+    font-family: 'Lora', serif;
+    display: block;
+}
+
+
 
 /*------recipes------*/
 .recipe-title{
     color:#2E4A4D; 
-    margin-top: 10px;
+    margin-top: 1%;
     margin-bottom: 5px;
-    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 5px;
     text-align: center;
     /*text-decoration: dotted;
     text-decoration-color: #2E4A4D;*/
     background-color: #99A5B3;
     margin-left: -10px;
     margin-right:-10px;
-    font-family: 'cutive', serif;
-    font-size:large;
+    font-family: 'Righteous', serif;
+    font-size:larger;
+    font-weight: 175;
 
 }
 
@@ -228,8 +244,10 @@ figure{
     background-color: #99A5B3;
     margin-left: -10px;
     margin-right:-10px;
-    font-family: 'Cutive', serif;
+    margin-bottom: 1%;
+    font-family: 'Righteous', serif;
     font-size:medium;
+    padding-bottom: 5px;
 }
 
 .recipe{
